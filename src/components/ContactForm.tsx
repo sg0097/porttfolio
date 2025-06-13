@@ -45,10 +45,10 @@ interface ContactFormProps {
 
 const ContactForm = ({
   socialLinks = {
-    github: "https://github.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
-    email: "hello@example.com",
+    github: "https://github.com/sg0097",
+    linkedin: "https://www.linkedin.com/in/shivam-guptag/",
+    
+    email: "shivamgupta0097@gmail.com",
   },
 }: ContactFormProps) => {
   const [isSubmitting, setIsSubmitting] = useState(false);

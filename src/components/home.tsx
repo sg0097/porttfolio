@@ -10,7 +10,7 @@ const Home = () => {
   const [theme, setTheme] = useState<"light" | "dark">("light");
 
   const toggleTheme = () => {
-    setTheme(theme === "light" ? "dark" : "light");
+    setTheme(theme === "dark" ? "dark" : "light");
     // In a real implementation, you would apply the theme to the document
     document.documentElement.classList.toggle("dark");
   };
@@ -63,10 +63,10 @@ const Home = () => {
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="md:w-1/2">
               <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-                Hi, I'm <span className="text-primary">John Doe</span>
+                Hi, I'm <span className="text-primary">Shivam Gupta</span>
               </h1>
               <p className="mt-4 text-xl text-muted-foreground">
-                Frontend Developer & UI/UX Designer
+                Full Stack Developer
               </p>
               <p className="mt-4 text-muted-foreground max-w-md">
                 I build accessible, responsive, and performant web applications
@@ -121,26 +121,21 @@ const Home = () => {
                   <div className="space-y-4">
                     <div>
                       <div className="font-medium">
-                        Senior Frontend Developer
+                        Backend developer intern
                       </div>
                       <div className="text-sm text-muted-foreground">
-                        Tech Company Inc. • 2020 - Present
+                        Ezymaid • Feb 2025 - Present
                       </div>
                       <p className="mt-2 text-sm">
-                        Led development of responsive web applications using
-                        React, TypeScript, and Tailwind CSS.
+                        Worked with the architecture team to design the architecture and implement important feature in the application.
+                        
                       </p>
-                    </div>
-                    <div>
-                      <div className="font-medium">UI/UX Designer</div>
-                      <div className="text-sm text-muted-foreground">
-                        Design Studio • 2018 - 2020
-                      </div>
                       <p className="mt-2 text-sm">
-                        Created user interfaces and experiences for web and
-                        mobile applications.
+                        The Tech stack we used there was including Nodejs,MongoDB,ExpressJS.
+                        
                       </p>
                     </div>
+                    
                   </div>
                 </CardContent>
               </Card>
@@ -148,28 +143,28 @@ const Home = () => {
                 <CardContent className="p-6">
                   <h3 className="text-xl font-semibold mb-4">Education</h3>
                   <div className="space-y-4">
-                    <div>
-                      <div className="font-medium">
-                        Master's in Computer Science
-                      </div>
-                      <div className="text-sm text-muted-foreground">
-                        University of Technology • 2016 - 2018
-                      </div>
-                      <p className="mt-2 text-sm">
-                        Specialized in Human-Computer Interaction and Web
-                        Technologies.
-                      </p>
-                    </div>
+                    
                     <div>
                       <div className="font-medium">
                         Bachelor's in Software Engineering
                       </div>
                       <div className="text-sm text-muted-foreground">
-                        State University • 2012 - 2016
+                        Chandigarh University • 2021 - 2025
                       </div>
                       <p className="mt-2 text-sm">
-                        Graduated with honors. Focus on software development and
-                        design.
+                        Gaining a solid foundation in software development,
+                        algorithms, and data structures.
+                      </p>
+                    </div>
+                    <div>
+                      <div className="font-medium">
+                        Class 12th in Science
+                      </div>
+                      <div className="text-sm text-muted-foreground">
+                        DAV Public School • 2020 - 2021
+                      </div>
+                      <p className="mt-2 text-sm">
+                        
                       </p>
                     </div>
                   </div>
@@ -198,18 +193,18 @@ const Home = () => {
                     href="mailto:john.doe@example.com"
                     className="text-primary hover:underline"
                   >
-                    john.doe@example.com
+                    shivamgupta0097@gmail.com
                   </a>
                 </p>
                 <p className="flex items-center gap-2">
                   <span className="font-medium">Location:</span>
-                  <span>San Francisco, CA</span>
+                  <span>Haryana</span>
                 </p>
               </div>
               <div className="mt-6 flex gap-4">
                 <Button variant="outline" size="icon" asChild>
                   <a
-                    href="https://github.com"
+                    href="https://github.com/sg0097"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="GitHub"
@@ -233,7 +228,7 @@ const Home = () => {
                 </Button>
                 <Button variant="outline" size="icon" asChild>
                   <a
-                    href="https://linkedin.com"
+                    href="https://www.linkedin.com/in/shivam-guptag/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="LinkedIn"
@@ -316,7 +311,7 @@ const Home = () => {
       <footer className="border-t py-6 md:py-8">
         <div className="container flex flex-col md:flex-row justify-between items-center">
           <div className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} John Doe. All rights reserved.
+            © {new Date().getFullYear()} Shivam Gupta. All rights reserved.
           </div>
           <div className="mt-4 md:mt-0">
             <nav className="flex gap-4 text-sm">

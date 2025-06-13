@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import ProjectModal from "./ProjectModal";
 import { motion } from "framer-motion";
+import { Image } from "lucide-react";
 
 interface Project {
   id: string;
@@ -146,69 +147,69 @@ const ProjectsGrid = ({ projects = defaultProjects }: ProjectsGridProps) => {
 const defaultProjects: Project[] = [
   {
     id: "1",
-    title: "E-Commerce Platform",
+    title: "AI based Fraud detection system",
     description:
-      "A full-featured online shopping platform with cart, checkout, and payment integration.",
+      "A real-time AI-based fraud detection system that processes incoming data streams to identify fraudulent activities. It utilizes machine learning algorithms to analyze patterns and anomalies in the data, providing instant alerts and reports. The system is designed for scalability and can handle large volumes of transactions efficiently.",
     category: "web",
     image:
-      "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+      "/ai.png",
+    technologies: ["Python", "flask","Kafka", "Docker"],
     demoUrl: "https://example.com/demo",
-    repoUrl: "https://github.com/example/project",
+    repoUrl: "https://github.com/sg0097/Fraud_detection_System",
     details:
-      "This e-commerce platform features user authentication, product catalog with filtering and search, shopping cart functionality, secure checkout process with Stripe integration, order history, and admin dashboard for product management.",
+      "A real-time AI-based fraud detection system that processes incoming data streams to identify fraudulent activities. It utilizes machine learning algorithms to analyze patterns and anomalies in the data, providing instant alerts and reports. The system is designed for scalability and can handle large volumes of transactions efficiently.",
   },
   {
     id: "2",
-    title: "Task Management App",
+    title: "Learning Management System",
     description:
-      "A productivity app for managing tasks, projects, and team collaboration.",
-    category: "mobile",
+      "This Learning Management System (LMS) allows students to access a variety of courses, track their progress, and interact with instructors. Teachers can create and manage courses, upload materials, and engage with students through discussions and quizzes. The platform features user authentication, course recommendations, and a responsive design for both desktop and mobile users.",
+    category: "web",
     image:
-      "https://images.unsplash.com/photo-1540350394557-8d14678e7f91?w=800&q=80",
-    technologies: ["React Native", "Firebase", "Redux"],
+      "/lms.png",
+    technologies: ["React", "Express", "MongoDB", "Node.js"],
     demoUrl: "https://example.com/demo2",
     repoUrl: "https://github.com/example/project2",
     details:
-      "This task management application allows users to create and organize tasks, set priorities and deadlines, collaborate with team members, track progress with visual charts, and receive notifications for upcoming deadlines.",
+      "This Learning Management System (LMS) allows students to access a variety of courses, track their progress, and interact with instructors. Teachers can create and manage courses, upload materials, and engage with students through discussions and quizzes. The platform features user authentication, course recommendations, and a responsive design for both desktop and mobile users.",
   },
   {
     id: "3",
-    title: "Financial Dashboard",
+    title: "Real Time Chess App",
     description:
-      "Interactive dashboard for visualizing and analyzing financial data.",
-    category: "data",
+      "A real time chess application with multiplayer support and AI opponents.",
+    category: "web",
     image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
-    technologies: ["D3.js", "React", "Express", "PostgreSQL"],
+      "/ch.png",
+    technologies: ["Nodejs", "React", "Express", "PostgreSQL"],
     demoUrl: "https://example.com/demo3",
-    repoUrl: "https://github.com/example/project3",
+    repoUrl: "https://github.com/sg0097/my-chess-app",
     details:
-      "This financial dashboard provides real-time data visualization with interactive charts and graphs, customizable widgets for different financial metrics, historical data analysis, and export functionality for reports.",
+      "This real-time chess application features multiplayer support with real-time updates, AI opponents with adjustable difficulty levels, user accounts with game history, and a responsive design for mobile and desktop play.",
   },
   {
     id: "4",
-    title: "Social Media Platform",
-    description: "A community-focused social platform with real-time features.",
+    title: "Job Portal Web App",
+    description: "A web application for job seekers and employers to connect.",
     category: "web",
     image:
-      "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=800&q=80",
+      "/job.png",
     technologies: ["React", "Socket.io", "Express", "MongoDB"],
     demoUrl: "https://example.com/demo4",
     repoUrl: "https://github.com/example/project4",
     details:
-      "This social media platform includes user profiles, news feed with infinite scrolling, real-time messaging and notifications, content sharing capabilities, and community groups and forums.",
+      "This job portal web app allows job seekers to create profiles, search and apply for jobs, and receive notifications for new job postings. Employers can post job listings, review applications, and manage their listings. The app features real-time chat between employers and candidates, a user-friendly interface, and responsive design for mobile access.",
   },
   {
     id: "5",
-    title: "Fitness Tracking App",
-    description: "Mobile application for tracking workouts and health metrics.",
+    title: "Ecommerce Mobile App",
+    description: "Mobile application for online shopping with user accounts.",
     category: "mobile",
     image:
-      "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=800&q=80",
-    technologies: ["Flutter", "Firebase", "HealthKit API"],
+      "/ecom.png",
+    technologies: ["React Native", "Fakestore API"],
     demoUrl: "https://example.com/demo5",
-    repoUrl: "https://github.com/example/project5",
+    repoUrl: "https://github.com/sg0097/ecomapp",
     details:
       "This fitness tracking app allows users to log workouts and track progress, monitor health metrics like heart rate and steps, create custom workout plans, set goals and receive achievements, and view progress statistics and trends.",
   },
