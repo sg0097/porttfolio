@@ -86,7 +86,7 @@ const Home = () => {
                 <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-primary to-primary/50 blur-md"></div>
                 <div className="relative rounded-full overflow-hidden h-64 w-64 border-4 border-background">
                   <img
-                    src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80"
+                    src="/dd.jpg" // Replace with your image URL
                     alt="Profile"
                     className="h-full w-full object-cover"
                   />
